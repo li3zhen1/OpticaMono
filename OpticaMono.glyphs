@@ -1,0 +1,113 @@
+{
+.appVersion = "3087";
+.formatVersion = 3;
+DisplayStrings = (
+n
+);
+date = "2022-02-20 13:28:03 +0000";
+familyName = "New Font";
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+pos = 1920;
+},
+{
+over = 24;
+pos = 1440;
+},
+{
+over = 20;
+pos = 1080;
+},
+{
+over = -20;
+},
+{
+pos = -480;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = n;
+lastChange = "2022-02-20 14:45:28 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,1080,l),
+(188,0,l),
+(358,0,l),
+(358,648,ls),
+(358,834,o),
+(487,945,o),
+(651,945,cs),
+(811,945,o),
+(908,831,o),
+(908,659,cs),
+(908,0,l),
+(1078,0,l),
+(1078,694,ls),
+(1078,962,o),
+(913,1098,o),
+(696,1098,cs),
+(525,1098,o),
+(415,1022,o),
+(364,900,c),
+(350,900,l),
+(350,1081,l),
+(188,1081,l)
+);
+}
+);
+width = 1266;
+}
+);
+unicode = 110;
+},
+{
+glyphname = space;
+layers = (
+{
+layerId = m01;
+width = 200;
+}
+);
+unicode = 32;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+unitsPerEm = 2048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+nV = "168";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}
