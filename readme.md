@@ -1,3 +1,14 @@
 # The Optica Mono font family
 
-A mono-spaced font inspired by Inter, SF Mono, JetBrains Mono and IBM Plex Sans Mono.
+
+
+Optica is a mono-spaced font family inspired by [Inter](https://rsms.me/inter/), [SF Mono](https://developer.apple.com/fonts/) and [JetBrains Mono](https://www.jetbrains.com/lp/mono/). This font family is still under development.
+
+
+
+## Example
+
+
+
+![font-family-example](assets/do-not-go-gentle.svg)
+

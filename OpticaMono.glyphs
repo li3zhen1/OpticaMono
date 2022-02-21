@@ -1,6 +1,11 @@
 {
 .appVersion = "3087";
 .formatVersion = 3;
+DisplayStrings = (
+"spinx.,",
+i,
+","
+);
 date = "2022-02-20 13:28:03 +0000";
 familyName = "Optica Mono";
 fontMaster = (
@@ -1387,6 +1392,58 @@ width = 1266;
 }
 );
 unicode = 32;
+},
+{
+glyphname = period;
+lastChange = "2022-02-21 13:24:29 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(738,-20,o),
+(819,61,o),
+(819,164,cs),
+(819,267,o),
+(738,348,o),
+(633,348,cs),
+(528,348,o),
+(447,267,o),
+(447,164,cs),
+(447,61,o),
+(528,-20,o),
+(633,-20,cs)
+);
+}
+);
+width = 1266;
+}
+);
+unicode = 46;
+},
+{
+glyphname = comma;
+lastChange = "2022-02-21 13:31:02 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(810,356,l),
+(562,356,l),
+(410,-312,l),
+(578,-312,l)
+);
+}
+);
+width = 1266;
+}
+);
+unicode = 44;
 }
 );
 metrics = (
