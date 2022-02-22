@@ -9,8 +9,9 @@ Optica is a mono-spaced font family inspired by [Inter](https://rsms.me/inter/),
 ## Example
 
 
-![font-family-example-1](assets/sphinx.svg)
+![26-letters](assets/alphabets-example.svg)
 
+![code-text](assets/code-example.svg)
 
-![font-family-example-2](assets/do-not-go-gentle.svg)
+![plain-text](assets/plain-text-example.svg)
 
