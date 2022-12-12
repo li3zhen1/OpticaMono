@@ -1,24 +1,31 @@
-#include <string>
 #include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
-typedef enum _typeface_style {
-    monospaced     = 0x0,
-    proportional   = 0x1,
-} typeface_style;
+class Typeface {
+public:
+    enum TypefaceStyle {
+        Monospaced = 0x0,
+        Proportional = 0x1,
+    };
+};
 
 int main() {
 
-    const typeface_style style = monospaced;
-    
-    const basic_string<char> sentence[] = {
+    const auto style = Typeface::Monospaced;
+
+    const auto specimenText = new vector<string> {
         "sphinx of black quartz, judge my vow.\n",
-        "the quick brown fox jumps over the lazy dog.\n",
     };
-        
+    
+    specimenText->push_back(
+        "the quick brown fox jumps over the lazy dog.\n"
+    );
+
     // print a sentence that contains all lower-case letters.
-    fprintf(stdout, "%s", sentence[style].c_str());
+    fprintf(stdout, "%u", style);
 
     return 0;
 }

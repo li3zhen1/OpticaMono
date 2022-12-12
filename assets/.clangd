@@ -1,0 +1,2 @@
+CompileFlags:                     # Tweak the parse settings
+  Add: [-xc++, -Wall, -std=c++20]             # treat all files as C++, enable more warnings
